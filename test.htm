@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h3{margin:1rem 0 .4rem 0;font-size:1.75rem;line-height:1.2}
+		caption{caption-side:top;padding:.6em 0 .2em 0}
+		table{border-collapse:collapse;background:#f1f1f1}
+		th,td,thead,tfoot{padding:5px}
+		th{background:#e6e7eb}
+		table,th,td{ border:1px solid black}
+	</style>
+	<title>Tables</title>
+</head>
+<body>
+
+	<h3>Una tabella con un'intestazione</h3>
+	<table>
+		<tbody>
+			<tr>
+				<th>Nome</th>
+				<th>Cognome</th>
+			</tr>
+			<tr>
+				<td>John</td>
+				<td>Doe</td>
+			</tr>
+			<tr>
+				<td>Jane</td>
+				<td>Doe</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>Una tabella con thead, tfoot, e tbody</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Intestazione 1 A1</th>
+				<th>Intestazione 1 A2</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td>Footer 2 A1</td>
+				<td>Footer 2 A2</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>Corpo della tabella 3 A1</td>
+				<td>Corpo della tabella 3 A2</td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+	<h3>Una tabella con tbody, tfoot, thead</h3>
+	<table>
+		<tbody>
+			<tr>
+				<td>Corpo della tabella 1 B1</td>
+				<td>Corpo della tabella 1 B2</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Footer 2 B1</td>
+				<td>Footer 2 B2</td>
+			</tr>
+		</tfoot>
+		<thead>
+			<tr>
+				<th>Intestazione 3 B1</th>
+				<th>Intestazione 3 B2</th>
+			</tr>
+		</thead>
+	</table>
+	
+
+	<h3>Tablella con colgroup</h3>
+	<table>
+		<colgroup span="4"></colgroup>
+		<tbody>
+			<tr>
+				<th>Stati</th>
+				<th>Capitali</th>
+				<th>Popolazione</th>
+				<th>Lingua</th>
+			</tr>
+			<tr>
+				<td>USA</td>
+				<td>Washington D.C.</td>
+				<td>309 milioni</td>
+				<td>Inglese</td>
+			</tr>
+			<tr>
+				<td>Svezia</td>
+				<td>Stoccolma</td>
+				<td>9 milioni</td>
+				<td>Svedese</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>Tabella con colgroup and col</h3>
+	<table>
+		<colgroup>
+			<col>
+			<col span="2">
+		</colgroup>
+		<tbody>
+			<tr>
+				<th>Lime</th>
+				<th>Limone</th>
+				<th>Arancia</th>
+			</tr>
+			<tr>
+				<td>Verde</td>
+				<td>Giallo</td>
+				<td>Arancione</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>Tabella con caption</h3>
+	<table>
+		<caption>
+			Descrizione Top
+		</caption>
+		<thead>
+			<tr>
+				<th>Student ID</th>
+				<th>Name</th>
+				<th>Major</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>3741255</td>
+				<td>Jones, Martha</td>
+				<td>Computer Science</td>
+			</tr>
+			<tr>
+				<td>3971244</td>
+				<td>Nim, Victor</td>
+				<td>Russian Literature</td>
+			</tr>
+			<tr>
+				<td>4100332</td>
+				<td>Petrov, Alexandra</td>
+				<td>Astrophysics</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>Tabella con caption bottom</h3>
+	<table>
+		<caption style="caption-side:bottom">
+			Descrizione Bottom
+		</caption>
+		<thead>
+			<tr>
+				<th>Student ID</th>
+				<th>Name</th>
+				<th>Major</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>3741255</td>
+				<td>Jones, Martha</td>
+				<td>Computer Science</td>
+			</tr>
+			<tr>
+				<td>3971244</td>
+				<td>Nim, Victor</td>
+				<td>Russian Literature</td>
+			</tr>
+			<tr>
+				<td>4100332</td>
+				<td>Petrov, Alexandra</td>
+				<td>Astrophysics</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
